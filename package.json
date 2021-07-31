@@ -1,0 +1,23 @@
+{
+  "name": "worker-threads",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node dist/main.js",
+    "build": "tsc",
+    "clean": "rm -rf dist",
+    "exec": "npm run clean && npm run build && npm start"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^16.4.8",
+    "@types/progress": "^2.0.4",
+    "typescript": "^4.3.5"
+  },
+  "dependencies": {
+    "progress": "^2.0.3"
+  }
+}
